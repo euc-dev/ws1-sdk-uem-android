@@ -1,13 +1,10 @@
 ---
-#title: Workspace ONE SDK for Android
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: default
+title: Workspace ONE Android SDK
+permalink: /sdks/ws1/ws1-sdk-uem-android/
+hide:
+  #- navigation
+  - toc
 ---
 
 # Workspace ONE SDK for Android
@@ -47,28 +44,29 @@ Refer to these guides for instructions on how to integrate specific features.
 
 | Name | Version | Size | MD5 | Link |
 | --- | --- | --- | --- | --- |
-| Workspace ONE SDK for Android | Native |  |  | [](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall) |
+| Workspace ONE SDK for Android | Native |  |  | [Download](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall) |
 
 ## Documentation and Reference
-Name	Size	 
-Development Guides
-VMware Workspace ONE for Android Base Integration Guide - latest	603.9 KB	
-VMware Workspace ONE for Android Branding Integration Guide - latest	826.0 KB	
-VMware Workspace ONE for Android developer guide: Application Key Management	127.8 KB	
-VMware Workspace ONE for Android developer guide: Migration, Deployment, and General Supplement	262.6 KB	
-VMware Workspace ONE for Android developer guide: Networking	190.3 KB	
-VMware Workspace ONE for Android Integration Overview - latest	247.8 KB	
-VMware Workspace ONE for Android Integration Preparation Guide - latest	862.9 KB	
-VMware Workspace ONE for Android Privacy Agreements Module Integration Guide - latest	2.6 MB	
-VMware Workspace ONE for Android Public Maven Repository Integration Note	141.3 KB	
-VMware Workspace ONE for Android UEM System Administration for Application Developers Guide	6.4 MB	
-VMware Workspace ONE Gradle Plugin Technical Feature Guide	233.0 KB	
-VMware Workspace ONE Inactivity Wipe Technical Feature Guide	549.8 KB	
-VMware Workspace ONE Printing Prevention Technical Feature Guide	217.1 KB	
-VMware Workspace ONE User Interface Watermark Technical Feature Guide	370.4 KB	
-General
-Mobile Application Management Technical White Paper	1.2 MB	
-Miscellaneous
-VMware Workspace ONE Software Development Kit License Agreement	68.0 KB	
-App Logging Technical Feature Guide	237.2 KB	
-Require Device Passcode Technical Feature Guide	449.4 KB
+| Name | Size |
+| --- | ---:|
+| Development Guides |  |
+| VMware Workspace ONE for Android Base Integration Guide - latest | 603.9 KB |
+| VMware Workspace ONE for Android Branding Integration Guide - latest | 826.0 KB |
+| VMware Workspace ONE for Android developer guide: Application Key Management | 127.8 KB |
+| VMware Workspace ONE for Android developer guide: Migration, Deployment, and General Supplement | 262.6 KB |
+| VMware Workspace ONE for Android developer guide: Networking | 190.3 KB |
+| VMware Workspace ONE for Android Integration Overview - latest | 247.8 KB |
+| VMware Workspace ONE for Android Integration Preparation Guide - latest | 862.9 KB |
+| VMware Workspace ONE for Android Privacy Agreements Module Integration Guide - latest | 2.6 MB |
+| VMware Workspace ONE for Android Public Maven Repository Integration Note | 141.3 KB |
+| VMware Workspace ONE for Android UEM System Administration for Application Developers Guide | 6.4 MB |
+| VMware Workspace ONE Gradle Plugin Technical Feature Guide | 233.0 KB |
+| VMware Workspace ONE Inactivity Wipe Technical Feature Guide | 549.8 KB |
+| VMware Workspace ONE Printing Prevention Technical Feature Guide | 217.1 KB |
+| VMware Workspace ONE User Interface Watermark Technical Feature Guide | 370.4 KB |
+| General |  |
+| Mobile Application Management Technical White Paper | 1.2 MB |
+| Miscellaneous |  |
+| VMware Workspace ONE Software Development Kit License Agreement | 68.0 KB	 |
+| App Logging Technical Feature Guide | 237.2 KB |
+| Require Device Passcode Technical Feature Guide | 449.4 KB |
