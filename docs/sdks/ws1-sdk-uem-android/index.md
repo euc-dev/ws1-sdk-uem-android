@@ -20,7 +20,7 @@ The Workspace ONE SDK for Android is distributed through a public Maven reposito
 ## Downloads
 | Name | Version | Size | MD5 | Link |
 | --- | --- | --- | --- | --- |
-| Workspace ONE SDK for Android | Native |  |  | [Download](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall) |
+| Workspace ONE SDK for Android | Native |  |  | [Download](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall){ .md-button .md-button--primary } |
 
 ## Documentation and Reference
 | Name | Size |
@@ -32,7 +32,7 @@ The Workspace ONE SDK for Android is distributed through a public Maven reposito
 | [Workspace ONE for Android: Migration, Deployment, and General Supplement](./guides//WS1AndroidDeveloperGuideSupplement.pdf) | 262.6 KB |
 | [Workspace ONE for Android: Networking Developer Guide](./guides/WS1AndroidDeveloperGuideNetworking.pdf) | 190.3 KB |
 | Sample Code |  |
-| [Workspace ONE for Android Open Source Sample Code on GitHub](https://github.com/euc-dev/ws1-sdk-integration-samples) |  |
+| [Workspace ONE for Android Open Source Sample Code on GitHub](https://github.com/euc-dev/ws1-sdk-integration-samples) |  | **POTENTIALLY CHANGE**
 | Integration Guides |  |
 | [Workspace ONE for Android Integration Overview](./guides/WorkspaceONE_Android_IntegrationOverview.pdf) | 247.8 KB |
 | [Workspace ONE for Android Integration Preparation Guide](./guides/WorkspaceONE_Android_IntegrationPreparation.pdf) | 862.9 KB |
