@@ -9,21 +9,25 @@ hide:
 
 The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Google Android devices can be used to enable additional app config and security capabilities that may not yet be available natively as part of the AppConfig Community. Certain use cases such as granular analytics can be provided through a deeper integration with the SDK. The Workspace ONE SDK for Android is also a good choice in deployment scenarios where a MDM profile installation on the device is not possible.
 
-## Agreement
-
-Before downloading, installing or using the VMware Workspace ONE SDK you must:
-* Review the VMware Workspace ONE Software Development Kit License Agreement. By downloading, installing, or using the VMware Workspace ONE SDK you agree to these license terms. If you disagree with any of the terms, then do not use the software.
-* Review the VMware Privacy Notice and the Workspace ONE UEM Privacy Disclosure.
-
-## Latest Software
-
-The Workspace ONE SDK for Android is distributed through a public Maven repository. Follow the instructions in the guides below to integrate the latest software. The SDK can instead be downloaded from the My Workspace ONE portal, if you have a My VMware username and password. The Maven repository is the recommended integration method.
-
 ## Downloads
 
-| Name | Version | Size | MD5 | Link |
-| --- | --- | --- | --- | --- |
-| Workspace ONE SDK for Android | Native |  |  | [Download](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall){ .md-button .md-button--primary } |
+### Agreement
+Before downloading, installing or using the Omnissa Workspace ONE SDK you must:
+
+- Review the Omnissa Workspace ONE Software Development Kit License Agreement. By downloading, installing, or using the Omnissa Workspace ONE SDK you agree to these license terms. If you disagree with any of the terms, then do not use the software.
+- Review the VMware Privacy Notice and the Workspace ONE UEM Privacy Disclosure.
+
+### Latest Software
+
+The Workspace ONE SDK for iOS is distributed through the {{ config.repo_url }} repository. Follow the instructions in the guides below to integrate the latest software.
+
+## Related Resources
+
+A number of additional related resources are available at the following links:
+- [Workspace ONE plugin for Cordova](https://www.npmjs.com/package/airwatch-sdk-plugin)
+- [Workspace ONE plugin for React Native](https://github.com/euc-releases/vmware-wsone-sdk-reactnative)
+- [Workspace ONE plugin for Xamarin Native](https://github.com/vmware-samples/workspace-ONE-SDK-integration-samples/tree/main/IntegrationGuideForXamarinNative)
+- [Workspace ONE plugin for Xamarin Native NuGet Package](https://www.nuget.org/packages/AWSDK/)
 
 ## Documentation and Reference
 
