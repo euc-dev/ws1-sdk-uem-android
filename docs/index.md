@@ -19,7 +19,7 @@ Before downloading, installing or using the Omnissa Workspace ONE SDK you must:
 
 ### Latest Software
 
-The Workspace ONE SDK for iOS is distributed through the {{ config.repo_url }} repository. Follow the instructions in the guides below to integrate the latest software.
+The Workspace ONE SDK for iOS is distributed through the [My.WorkspaceONE.com](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall) Portal. Follow the instructions in the guides below to integrate the latest software.
 
 ## Related Resources
 
