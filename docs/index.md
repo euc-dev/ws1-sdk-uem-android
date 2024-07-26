@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Workspace ONE SDK for Android
-#permalink: /sdks/ws1/ws1-sdk-uem-android/
 hide:
   #- navigation
   - toc
@@ -11,15 +10,7 @@ The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Google A
 
 ## Downloads
 
-### Agreement
-Before downloading, installing or using the Omnissa Workspace ONE SDK you must:
-
-- Review the Omnissa Workspace ONE Software Development Kit License Agreement. By downloading, installing, or using the Omnissa Workspace ONE SDK you agree to these license terms. If you disagree with any of the terms, then do not use the software.
-- Review the Omnissa Privacy Notice and the Workspace ONE UEM Privacy Disclosure.
-
-### Latest Software
-
-The Workspace ONE SDK for iOS is distributed through the [My.WorkspaceONE.com](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall) Portal. Follow the instructions in the guides below to integrate the latest software.
+By downloading, installing, or using the Software, you agree to be bound by the terms of Omnissa’s Software Development Kit License Agreement unless there is a different license provided in or specifically referenced by the downloaded file or package. If you disagree with any terms of the agreement, then do not use the Software.
 
 ## Related Resources
 
