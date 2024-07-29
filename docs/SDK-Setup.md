@@ -10,10 +10,12 @@ hide:
 
 The steps in this tutorial are NOT required if you are using App Wrapping or using only approaches from AppConfig.org. This tutorial will walk developers through how to setup the core SDK framework for those who have chosen the SDK approach.
 
-Before moving forward to the SDK setup tutorial, ensure you have completed the instructions in the [General Setup tutorial](index.md) and uploaded your app with an assigned SDK profile.
+Before moving forward to the SDK setup tutorial, ensure you have completed the instructions in the [Getting Started](getting-started.md) tutorial and uploaded your app with an assigned SDK profile.
+
+We recommend downloading the sample app associated with this tutorial to follow along.
 
 !!!Important
-    You will need to download the SDK binary separately via [resources.air-watch.com](https://resources.air-watch.com/). Please contact your AirWatch representative or support to gain access.
+    You will need to download the SDK binary separately via [resources.air-watch.com](https://resources.air-watch.com/). Please contact your Omnissa representative or support to gain access.
 
 ## Requirements
 
@@ -28,7 +30,7 @@ Before moving forward to the SDK setup tutorial, ensure you have completed the i
 There are two components in the Android SDK:
 
 - Client SDK – This is a lightweight JAR file which contains a basic level of functionality.
-- `AWFramework` – This is a more advanced AAR file which contains the logic for features such as app tunneling and integrated authentication. Integrating AWFramework also requires integration of the Client SDK.
+- AWFramework – This is a more advanced AAR file which contains the logic for features such as app tunneling and integrated authentication. Integrating AWFramework also requires integration of the Client SDK.
 
 Refer to the SDK implementation guide included in your SDK package for more details on what is in the Client SDK vs. the AWFramework.
 
@@ -38,9 +40,9 @@ Refer to the SDK implementation guide included in your SDK package for more deta
 
 Add the AirWatchSDK.jar and gson.jar to the libs folder in your project folder structure. These files are located in your downloaded SDK package from the AirWatch resource portal. 
 ![libs](5ccb30f4-015d-4061-87e5-289a918fd03c.png)
-2. Ensure that these libs are part of your build.gradle. Within the dependencies section in your gradle file you should see something similar to this:
+2. Ensure that these libs are part of your `build.gradle`. Within the dependencies section in your gradle file you should see something similar to this:
 
-```
+```JAVA
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 }
@@ -53,7 +55,7 @@ dependencies {
 1. The entry point to the Client SDK is done throughSDKManager.
 2. Start by creating an instance of SDKManager and call init.
 
-```
+```JAVA
 new Thread(new Runnable() {
     public void run() {
     try {
@@ -96,6 +98,8 @@ In your project file directory, ensure the listed files are in the libs folder a
 Add the dependencies in your app-level Gradle build file.
 
 1. Add a repositories block.
+
+```JAVA
 repositories{
 	flatDir{
 		dirs 'libs'
@@ -105,7 +109,7 @@ repositories{
 
 2. Add the files to the dependencies section, ensuring to change the names to match the names and versions of the library files.
 
-```
+```JAVA
 dependencies {
 	compile fileTree(dir: 'libs', include: ['*.jar'])
 	compile (name: 'AWFramework 15.11',ext:'aar')
@@ -113,13 +117,14 @@ dependencies {
 }
 ```
 
-1. Add a packagingOptions block with the following exclusions: packagingOptions { exclude 'META-INF/LICENSE.txt' exclude 'META-INF/NOTICE.txt' }
-1. Run the proguard.cfg file provided with the SDK package for your release builds. In order to do this, modify the release block in the buildTypes section of your Gradle file to include the excerpt.
+3. Add a `packagingOptions` block with the following exclusions: 
+   `packagingOptions { exclude 'META-INF/LICENSE.txt' exclude 'META-INF/NOTICE.txt' }`
+4. Run the `proguard.cfg` file provided with the SDK package for your release builds. In order to do this, modify the release block in the buildTypes section of your Gradle file to include the excerpt.
 
 !!!Note
-    Ensure to include the proguard.cfg file in the same folder as your gradle file. Find the proguard.cfg file inside the folder or package in which your SDK was delivered.
+    Ensure to include the `proguard.cfg` file in the same folder as your gradle file. Find the `proguard.cfg` file inside the folder or package in which your SDK was delivered.
 
-```
+```JAVA
 buildTypes {
 	release {
 		signingConfig signingConfigs.release
@@ -131,7 +136,7 @@ buildTypes {
 
 The package resembles the following example:
 
-```C
+```JAVA
 apply plugin: 'com.android.application'
 
 android {
@@ -192,16 +197,20 @@ Sync Gradle after adding the configurations.
 
 ### Create an Application class for AWFramework
 
-1. Create a new Java class with a name appropriate for the Application. E.g. SDKApplication
-2. Subclass the SDKApplication class from AWApplication:
-`public class SDKWalkthroughApp extends AWApplication`
-3. Implement getMainActivityIntent() so that control can be returned to the Main Activity once the sdk initialization has been completed.
-4. Implement getMainLauncherIntent() in the application so that the SDK knows which Acitivity to give control to during initialization. In this walkthrough, we’re using GatewaySplashActivity. This gives us the functionality from the Login Flow and the initialization of the GatewayManager for tunneling and local authentication.
-5. Override getMagCertificateEnable() so that the app can fetch the Mag Certificate during SDK initialization as well.
+1. Create a new Java class with a name appropriate for the Application. E.g. `SDKApplication`
+2. Subclass the `SDKApplication` class from AWApplication:
+
+```JAVA
+public class SDKWalkthroughApp extends AWApplication
+```
+
+3. Implement `getMainActivityIntent()` so that control can be returned to the Main Activity once the sdk initialization has been completed.
+4. Implement `getMainLauncherIntent()` in the application so that the SDK knows which Acitivity to give control to during initialization. In this walkthrough, we’re using GatewaySplashActivity. This gives us the functionality from the Login Flow and the initialization of the GatewayManager for tunneling and local authentication.
+5. Override `getMagCertificateEnable()` so that the app can fetch the Mag Certificate during SDK initialization as well.
 
 The Application class should represent the below sample:
 
-```C
+```JAVA
 package com.sample.airwatchsdk;
 
 import android.content.Intent;
@@ -239,20 +248,20 @@ public class SDKSampleApp extends AWApplication {
 }
 ```
 
-#### Setting Up the Manifest
+### Setting Up the Manifest
 
 1. Declare a Content Provider. Make sure to add your App’s package to the authorities tag
 
-```xml
+```JAVA
 provider
 	android:authorities="<your app package name>.securepreferences"
 	android:name="com.airwatch.storage.PreferencesProvider"
 	android:exported="false"/>
 ```
 
-1. Add the following permissions to the manifest
+2. Add the following permissions to the manifest
 
-```xml
+```XML
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="com.airwatch.sdk.BROADCAST" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -263,9 +272,9 @@ provider
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
 
-1. Set the GatewaySplashActivity as the Main launcher activity. Notice that the MainActivity is no longer listed as the Main launcher activity.
+3. Set the `GatewaySplashActivity` as the Main launcher activity. Notice that the MainActivity is no longer listed as the Main launcher activity.
 
-```xml
+```XML
         <activity
             android:name="com.airwatch.login.ui.activity.SDKSplashActivity"
             <intent-filter>
@@ -280,9 +289,9 @@ provider
         </activity>
 ```
 
-1. The manifest resembles the following example:
+The manifest resembles the following example:
 
-```xml
+```XML
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="com.airwatch.sdk.BROADCAST" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -323,11 +332,11 @@ provider
     </application>
 ```
 
-#### Configure the App theme to have the Branding Icon
+### Configure the App theme to have the Branding Icon
 
 1. Set the SDK Branding Icon to be the image. This can be the app icon or an image specific to the app. The Branding Icon is required for SDK Login Flow integrations.
 
-```xml
+```XML
 <!-- Base application theme. -->
 <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 <!-- Customize your theme here. -->
@@ -339,33 +348,32 @@ provider
 </style>
 ```
 
-#### Configure the Main Activity to handle the AirWatch SDK Login Flow/GatewayManager setup
+### Configure the Main Activity to handle the AirWatch SDK Login Flow/GatewayManager setup
 
-`public class MainActivity extends SDKBaseActivity`
+```JAVA
+public class MainActivity extends SDKBaseActivity
+```
     
 Subclass the MainActivity to inherit from `SDKBaseActivity`.
 
-#### Debug Your Application
+## Debug Your Application
 
 Before you can begin using the SDK API, you must ensure your application signing key is whitelisted with your AirWatch Admin Console. There are a few ways to do this depending on your deployment scenario.
 
-#### Internal Deployment or Testing
+## Internal Deployment or Testing
 
 1. Sign an APK file with the debug keystore of Android Studio. This is located in ~/.android/debug.keystore by default.
+2. Upload the APK file signed with your debug key to the AirWatch Admin Console. (Refer back to the Uploading your application in the [Getting Started](getting-started.md) section.)
+3. Install the application through the AirWatch Agent app. This can be done by pushing the app down using the Agent‘s app catalog. If you set your installation policy to Automatic then the app will install automatically.
+4. Once the app is listed in the Managed Apps section of the Agent, it is ready for local management and can then be sideloaded manually through your IDE (Android Studio).
 
-1. Upload the APK file signed with your debug key to the AirWatch Admin Console. (Refer back to the Uploading your application in the Getting Started section.)
-
-1. Install the application through the AirWatch Agent app. This can be done by pushing the app down using the Agent‘s app catalog. If you set your installation policy to Automatic then the app will install automatically.
-
-1. Once the app is listed in the Managed Apps section of the Agent, it is ready for local management and can then be sideloaded manually through your IDE (Android Studio).
-
-#### Play Store Deployment
+## Play Store Deployment
 
 For applications that are deployed publicly through the Play Store, send the public signing key of the application to AirWatch for whitelisting.
 
 !!!Note
     Contact your professional services representative for the process of whitelisting the public signing key.
 
-#### Next Steps
+## Next Steps
 
 Once the SDK setup is completed, move on to the next SDK sections to implement the feature specific logic.

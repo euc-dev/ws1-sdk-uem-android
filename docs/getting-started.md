@@ -1,6 +1,6 @@
 ---
 layout: page
-title: General Setup
+title: Getting Started
 hide:
   #- navigation
   - toc
@@ -41,31 +41,28 @@ Before you can start to test or debug using AppConfig, AirWatch SDK, or App Wrap
    For fulls details on the different options in this tab, see our [Mobile Application Management (MAM) Guide](https://resources.air-watch.com/view/3e6301000a0028c197fb/en)  
 ![App Details](ce3028da-52aa-4289-898c-4b2ea44e90d8.png)
 
-If you are attempting to leverage App Wrapping, there is an additional set of instructions you will need to follow in App Wrapping section below. Likewise, if you are attempting to use the AirWatch SDK, please read and follow the SDK integration section below.
+If you are attempting to leverage App Wrapping, there is an additional set of instructions you will need to follow in [App Wrapping](#configuration-for-app-wrapping) section below. Likewise, if you are attempting to use the AirWatch SDK, please read and follow the [SDK integration](#configuration-for-sdk-apps) section below.
 
-If you do not plan on using the SDK or app wrapping, skip directly to the Save Your App section.
+If you do not plan on using the SDK or app wrapping, skip directly to the [Save Your App](#save-your-app) section.
 
-### (If Using Wrapping) Configuration for App Wrapping
+### Configuration for App Wrapping
 
 This steps in this section only are only required if you are using application wrapping.
 
 1. You must enable App Wrapping during the upload and setup of your mobile app. Go to More > App Wrapping and click on Enable App Wrapping.
 ![App Wrapping](./6523fd5c-52e0-4717-ace5-45cc977e562a.png)
 2. After enabling wrapping, you can then create and set the app wrapping profile on the same screen shown above. There are two choices for setting an app wrapping profile, you can use the default settings profile or you can create an Ad-Hoc custom profile, select the default settings for now.
-3. Move to the Save Your App section.
+3. Move to the [Save Your App](#save-your-app) section.
 
-!!!Note
-    In order to wrap iOS applications, you will also need to upload your app’s code signing certificate and provisioning profile.
-
-### (If Using SDK) Configuration for SDK Apps
+### Configuration for SDK Apps
 
 This steps in this section only are only required if you plan on integrating the AirWatch SDK.
 
-1. You must enable SDK during the upload and setup of your mobile app. Go to More > SDK.  sdk
+1. You must enable SDK during the upload and setup of your mobile app. Go to More > SDK.
 ![Enable SDK](./6c52f9c9-b1fc-49a2-9e09-1034d24159a7.png)
 2. Set the SDK profile to the default settings for now. (You can change it later if you need custom created profiles)
 3. Leave the Application Profile empty.
-4. Move to the Save Your App section.
+4. Move to the [Save Your App](#save-your-app) section.
 
 ### Save Your App
 
@@ -76,4 +73,4 @@ This steps in this section only are only required if you plan on integrating the
 ### Next Steps
 
 1. If you are using AppConfig or Wrapping, skip to the features section and begin following the implementation steps for your specific use case.
-2. If you are using the SDK, first complete the AirWatch SDK Setup section under getting started to integrate the core SDK framework.
+2. If you are using the SDK, first complete the [SDK Setup](SDK-Setup.md) section under getting started to integrate the core SDK framework.
