@@ -156,3 +156,4 @@ nav:
   - App Passcode:
     - App Wrapping: 'App-Passcode/App-Wrapping.md'
     - Airwatch SDK: 'App-Passcode/Airwatch-SDK.md'
+  - Release Notes: release-notes.md
