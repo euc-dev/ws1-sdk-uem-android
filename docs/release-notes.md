@@ -8,9 +8,9 @@ hide:
 
 Updated on 05/21/2024
 
-## What's in the release notes?
+## What's in the Release Notes?
 
-Workspace ONE SDK for Android Release Notes describe the new features and enhancements in each release. This page contains a summary of the new capabilities, issues that have been resolved, and known issues that have been reported in each release. The Workspace ONE SDK for Android allows you to enhance your enterprise applications with MDM capabilities. You can use VMware Workspace ONE UEM powered by AirWatch features that add a layer of security and business logic to your application.
+Workspace ONE SDK for Android Release Notes describe the new features and enhancements in each release. This page contains a summary of the new capabilities, issues that have been resolved, and known issues that have been reported in each release. The Workspace ONE SDK for Android allows you to enhance your enterprise applications with MDM capabilities. You can use Workspace ONE UEM powered by AirWatch features that add a layer of security and business logic to your application.
 
 ## Workspace ONE SDK 24.01 for Android - February 2024
 
@@ -24,7 +24,7 @@ Workspace ONE SDK 24.01 for Android has upgraded the SQLCipher library (https://
 
 ### Minimum Requirements
 
-Minimum requirements for VMware Workspace ONE SDK 24.01 for Android:
+Minimum requirements for Workspace ONE SDK 24.01 for Android:
 
 - Android 5.0 and later
 - API Level 21 and later
@@ -49,7 +49,7 @@ We haven't identified any notable known issues in this release. If you have any 
 
 ### Minimum Requirements
 
-Minimum requirements for VMware Workspace ONE SDK 23.12 for Android:
+Minimum requirements for Workspace ONE SDK 23.12 for Android:
 
 - Android 5.0 and later
 - API Level 21 and later
@@ -74,7 +74,7 @@ We haven't identified any notable known issues in this release. If you have any 
 
 ### Minimum Requirements
 
-Minimum requirements for VMware Workspace ONE SDK 23.10 for Android:
+Minimum requirements for Workspace ONE SDK 23.10 for Android:
 
 - Android 5.0 or later
 - API Level 21 or later
