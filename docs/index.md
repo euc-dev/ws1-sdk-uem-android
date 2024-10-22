@@ -10,14 +10,13 @@ The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Google A
 
 ## Downloads
 
-By downloading, installing, or using the Software, you agree to be bound by the terms of Omnissa’s Software Development Kit License Agreement unless there is a different license provided in or specifically referenced by the downloaded file or package. If you disagree with any terms of the agreement, then do not use the Software.
+Omnissa provides this Software Development Kit (the “Software”) to you subject to the following terms and conditions. By downloading, installing, or using the Software, you agree to be bound by the terms of [Omnissa SDK License Agreement](https://static.omnissa.com/sites/default/files/omnissa-sdk-agreement.pdf). If you disagree with any of the terms, then do not use the Software.
 
-| Name | Version | Size | MD5 |   |
-| --- | --- | --- | --- | --- | --- |
-| Workspace ONE SDK for Android | 24.01 | | | [Download](https://my.workspaceone.com/products/Workspace-ONE-SDK/Android/v24.01/awall) { .md-button } |
-| Workspace ONE for Android Open Source Sample Code on GitHub |   |   |   | [](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples) |
+For additional information, please visit the [Omnissa Legal Center](https://www.omnissa.com/legal-center/).
 
-## Integration Guides for Version 24.01
+The SDK is provided as either a [Package](https://github.com/orgs/euc-releases/packages?repo_name=Android-WorkspaceONE-SDK) or [Release](https://github.com/euc-releases/Android-WorkspaceONE-SDK/releases). Please download the software from the appropriate location.
+
+## Integration Guides
 
 Refer to these guides for instructions on how to integrate your Android app with Workspace ONE.
 
@@ -28,6 +27,9 @@ Refer to these guides for instructions on how to integrate your Android app with
 - [Workspace ONE for Android: Migration, Deployment, and General Supplement](./guides/WS1AndroidDeveloperGuideSupplement.pdf)
 - [Workspace ONE for Android: Networking Developer Guide](./guides/WS1AndroidDeveloperGuideNetworking.pdf)
 - [Workspace ONE for Android: Application Key Management Developer Guide](./guides/WS1AndroidDeveloperGuideKeyManagement.pdf)
+
+
+In addition, Sample Code for Workspace ONE for Android SDK is provided on [GitHub](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples)
 
 ## Technical Feature Guides
 
