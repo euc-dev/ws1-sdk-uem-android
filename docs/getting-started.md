@@ -25,7 +25,7 @@ There are several ways to enroll your device, a most common way is to do so via 
 5. Continue to the next step and enter in your enrollment user credentials.
 6. Go through and accept the device administration and profile installation prompts until enrollment is completed.
 
-!!!Note
+!!! note ""
     During the debugging and testing process, the application must first be uploaded to your AirWatch Admin Console and pushed down to your test device for your first installation. Every subsequent test can be side-loaded directly from your IDE.
 
 ## Uploading your application

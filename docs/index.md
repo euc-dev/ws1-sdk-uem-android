@@ -18,6 +18,12 @@ The SDK is provided as either a [Package](https://github.com/orgs/euc-releases/p
 
 ## Integration Guides
 
+The SDK is available from a Maven repository. Check the integration documentation on the [Omnissa Developer Portal](https://developer.omnissa.com/ws1-sdk-uem-android).
+
+!!! warning "Important Update Starting June 2024"
+
+    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the [My Workspace ONE portal](https://my.workspaceone.com/products/Workspace-ONE-SDK). It will only be distributed as a maven package; developers need to follow the instructions provided in the below-mentioned link to integrate the Workspace ONE SDK Android package into their applications.
+
 Refer to these guides for instructions on how to integrate your Android app with Workspace ONE.
 
 - [Workspace ONE for Android Integration Overview](./guides/WorkspaceONE_Android_IntegrationOverview.pdf)
@@ -28,8 +34,9 @@ Refer to these guides for instructions on how to integrate your Android app with
 - [Workspace ONE for Android: Networking Developer Guide](./guides/WS1AndroidDeveloperGuideNetworking.pdf)
 - [Workspace ONE for Android: Application Key Management Developer Guide](./guides/WS1AndroidDeveloperGuideKeyManagement.pdf)
 
+!!! info ""
 
-In addition, Sample Code for Workspace ONE for Android SDK is provided on [GitHub](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples)
+    [**Sample Code for Workspace ONE for Android SDK**](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples)
 
 ## Technical Feature Guides
 

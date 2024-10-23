@@ -14,8 +14,8 @@ Before moving forward to the SDK setup tutorial, ensure you have completed the i
 
 We recommend downloading the sample app associated with this tutorial to follow along.
 
-!!!Important
-    You will need to download the SDK binary separately via [resources.air-watch.com](https://resources.air-watch.com/). Please contact your Omnissa representative or support to gain access.
+!!! Important
+    The SDK is available from a Maven repository. Check the integration documentation on the [Omnissa Developer Portal](https://developer.omnissa.com/ws1-sdk-uem-android).
 
 ## Requirements
 
