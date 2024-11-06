@@ -58,5 +58,3 @@ Refer to these guides for instructions on how to integrate specific features.
 | [Workspace ONE for Android Public Maven Repository Integration Note](guides/WorkspaceONE_Android_PublicMavenNote.pdf) | 141.3 KB |
 | [Workspace ONE for Android UEM System Administration for Application Developers Guide](guides/WorkspaceONE_Android_UEMSysAdminForAppDevs.pdf) | 6.4 MB |
 | [Workspace ONE Gradle Plugin Technical Feature Guide](guides/WorkspaceONEGradlePlugin.pdf) | 233.0 KB |
-| Miscellaneous |  |
-| [Workspace ONE Software Development Kit License Agreement](misc/VMwareWorkspaceONESDKLicenseAgreement.pdf) | 68.0 KB |
