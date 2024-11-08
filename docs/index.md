@@ -5,8 +5,9 @@ hide:
   #- navigation
   - toc
 ---
+![Workspace ONE UEM SDK](../../../assets/logos/SDK-v-lm.png){ align=right }
 
-The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Google Android devices can be used to enable additional app config and security capabilities that may not yet be available natively as part of the AppConfig Community. Certain use cases such as granular analytics can be provided through a deeper integration with the SDK. The Workspace ONE SDK for Android is also a good choice in deployment scenarios where a MDM profile installation on the device is not possible.
+The Workspace ONE UEM SDK (formerly known as AirWatch SDK) code library for Google Android devices can be used to enable additional app config and security capabilities that may not yet be available natively as part of the AppConfig Community. Certain use cases such as granular analytics can be provided through a deeper integration with the SDK. The Workspace ONE SDK for Android is also a good choice in deployment scenarios where a MDM profile installation on the device is not possible.
 
 ## Downloads
 
