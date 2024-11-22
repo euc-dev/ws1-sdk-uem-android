@@ -15,11 +15,13 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 ## Requirements
 
-- Android 4.0+ / Ice Cream Sandwich / API Level 14+
-- Android Studio with the Gradle v1.3.0+
+- Android 7.0+ (i.e., API 24)
+- Workspace ONE UEM Console 2302+
+- Android Studio with the Gradle Android Build System (Gradle) 7.4+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 24.07
 - Android Test Device
 - AirWatch SDK from the Resources Portal
-- AirWatch Agent v5.3+ for Android (Requirement be lower depending on features used)
 
 ## Tutorial
 
