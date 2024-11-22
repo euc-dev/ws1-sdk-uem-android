@@ -26,6 +26,21 @@ Also when adding module dependencies, ensure the group and module names are in l
 ```c
 dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersion}") implementation ("com.airwatch.android:awframework:${airwatchVersion}") implementation ("com.airwatch.android:awnetworklibrary:${airwatchVersion}") }
 ```
+## Workspace ONE SDK 24.10 for Android
+
+### What's new
+- Support for POST requests for sending SCEP (Simple Certificate Enrollment Protocol) requests
+- Decommissioning of MAG and Standard Proxy
+- Stability improvements and Bug fixes.
+
+
+### Compatibility
+
+- Android 7.0+ (i.e., API 24)
+- Workspace ONE UEM Console 2302+
+- Android Studio with the Gradle Android Build System (Gradle) 7.4+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 24.07
 
 ## Workspace ONE SDK 24.07 for Android
 
