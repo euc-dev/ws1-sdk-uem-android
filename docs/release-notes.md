@@ -6,7 +6,7 @@ hide:
   #- toc
 ---
 
-Updated on 10/23/2024
+Updated on 12/20/2024
 
 ## What's in the Release Notes?
 
@@ -26,13 +26,27 @@ Also when adding module dependencies, ensure the group and module names are in l
 ```c
 dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersion}") implementation ("com.airwatch.android:awframework:${airwatchVersion}") implementation ("com.airwatch.android:awnetworklibrary:${airwatchVersion}") }
 ```
+
+## Workspace ONE SDK 24.11 for Android
+### What's new
+- Branding Update: SDK now features a new logo and splash screens as part of our transition to Omnissa.
+- Enhancements in Multi part log improvements.
+- Disabled Shift Based Access feature.
+
+### Compatibility
+- Android 7.0+ (i.e., API 24)
+- Workspace ONE UEM Console 2302+
+- Android Studio with the Gradle Android Build System (Gradle) 7.4+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 24.10
+
+
 ## Workspace ONE SDK 24.10 for Android
 
 ### What's new
 - Support for POST requests for sending SCEP (Simple Certificate Enrollment Protocol) requests
 - Decommissioning of MAG and Standard Proxy
 - Stability improvements and Bug fixes.
-
 
 ### Compatibility
 
