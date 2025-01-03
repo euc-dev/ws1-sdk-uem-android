@@ -28,6 +28,7 @@ dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersi
 ```
 
 ## Workspace ONE SDK 24.11 for Android
+
 ### What's new
 - Branding Update: SDK now features a new logo and splash screens as part of our transition to Omnissa.
 - Enhancements in Multi part log improvements.
