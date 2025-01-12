@@ -31,6 +31,7 @@ dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersi
 
 ### What's new
 - Branding Update: SDK now features a new logo and splash screens as part of our transition to Omnissa.
+- As part of rebranding few packageID's are updated as mentioned in the [KB article](https://kb.omnissa.com/s/article/6000713)
 - Enhancements in Multi part log improvements.
 - Disabled Shift Based Access feature.
 
