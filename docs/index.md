@@ -35,7 +35,7 @@ Refer to these guides for instructions on how to integrate your Android app with
 
 !!! info
 
-    [**Sample Application Code for Workspace ONE for Android SDK**](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples)
+    **Sample Application Code for Workspace ONE for Android SDK is available at[https://github.com/euc-releases/workspace-ONE-SDK-integration-samples](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples)**
 
 ## Technical Feature Guides
 
