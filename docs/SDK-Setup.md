@@ -14,8 +14,11 @@ Before moving forward to the SDK setup tutorial, ensure you have completed the i
 
 We recommend downloading the sample app associated with this tutorial to follow along.
 
-!!! Important
-    The SDK is available from a Maven repository. Check the integration documentation on the [Omnissa Developer Portal](https://developer.omnissa.com/ws1-sdk-uem-android).
+!!! warning "Important Update Starting June 2024"
+
+    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the [My Workspace ONE portal](https://my.workspaceone.com/products/Workspace-ONE-SDK). 
+    
+The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples/blob/main/IntegrationGuideForAndroid/Guides/PublicMaven/WorkspaceONE_Android_PublicMavenNote.md), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
 
 ## Requirements
 

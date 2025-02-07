@@ -25,7 +25,8 @@ There are several ways to enroll your device, a most common way is to do so via 
 5. Continue to the next step and enter in your enrollment user credentials.
 6. Go through and accept the device administration and profile installation prompts until enrollment is completed.
 
-!!! note ""
+!!! note
+
     During the debugging and testing process, the application must first be uploaded to your AirWatch Admin Console and pushed down to your test device for your first installation. Every subsequent test can be side-loaded directly from your IDE.
 
 ## Uploading your application
@@ -38,7 +39,7 @@ Before you can start to test or debug using AppConfig, AirWatch SDK, or App Wrap
 ![Add Application](./d4c93f04-1c50-4e76-b962-01a6148bdbba.png)
 2. Select Upload and  Local File to browse for the application file on your system.
 3. Select Continue and configure the Details tab options. Not every option is supported for every platform.
-   For fulls details on the different options in this tab, see our [Mobile Application Management (MAM) Guide](https://resources.air-watch.com/view/3e6301000a0028c197fb/en)  
+   For fulls details on the different options in this tab, see our [Mobile Application Management (MAM) Guide](https://docs.omnissa.com/bundle/MobileApplicationManagementVSaaS/page/MAMINTRODUCTION.html)  
 ![App Details](ce3028da-52aa-4289-898c-4b2ea44e90d8.png)
 
 If you are attempting to leverage App Wrapping, there is an additional set of instructions you will need to follow in [App Wrapping](#configuration-for-app-wrapping) section below. Likewise, if you are attempting to use the AirWatch SDK, please read and follow the [SDK integration](#configuration-for-sdk-apps) section below.
