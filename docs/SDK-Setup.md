@@ -15,7 +15,7 @@ Before moving forward to the SDK setup tutorial, ensure you have completed the i
 We recommend downloading the sample app associated with this tutorial to follow along.
 
 !!! Important
-    The SDK is available from a Maven repository. Check the integration documentation on the [Omnissa Developer Portal](https://developer.omnissa.com/ws1-uem-sdk-for-android/).
+    The SDK is available from a Maven repository. Check the integration documentation on the [Omnissa Developer Portal](https://developer.omnissa.com/ws1-sdk-uem-android).
 
 ## Requirements
 
