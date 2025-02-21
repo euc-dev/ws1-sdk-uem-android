@@ -46,7 +46,6 @@ Refer to these guides for instructions on how to integrate specific features.
 - [Workspace ONE User Interface Watermark Guide](./guides/UserInterfaceWatermark.pdf)
 - [Workspace ONE App Logging Guide](./guides/AppLogging.pdf)
 - [Workspace ONE Require Device Passcode Technical Feature Guide](guides/RequireDevicePasscode.pdf)
-- [Workspace ONE Mobile Application Management Technical White Paper](general/MobileApplicationManagement.pdf)
 
 ## Other Documentation and Reference
 
@@ -55,5 +54,3 @@ Refer to these guides for instructions on how to integrate specific features.
 | Integration Guides |  |
 | [Workspace ONE for Android Privacy Agreements Module Integration Guide](guides/WorkspaceONE_Android_Privacy.pdf) - latest | 2.6 MB |
 | [Workspace ONE for Android Public Maven Repository Integration Note](guides/WorkspaceONE_Android_PublicMavenNote.pdf) | 141.3 KB |
-| [Workspace ONE for Android UEM System Administration for Application Developers Guide](guides/WorkspaceONE_Android_UEMSysAdminForAppDevs.pdf) | 6.4 MB |
-| [Workspace ONE Gradle Plugin Technical Feature Guide](guides/WorkspaceONEGradlePlugin.pdf) | 233.0 KB |
