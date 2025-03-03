@@ -5,9 +5,9 @@ hide:
   #- navigation
   - toc
 ---
-![Workspace ONE UEM SDK](../../../assets/logos/SDK-v-lm.png){ align=right }
+![Workspace ONE SDK](../../../assets/logos/SDK-v-lm.png){ align=right }
 
-The Workspace ONE UEM SDK (formerly known as AirWatch SDK) code library for Google Android devices can be used to enable additional app config and security capabilities that may not yet be available natively as part of the AppConfig Community. Certain use cases such as granular analytics can be provided through a deeper integration with the SDK. The Workspace ONE SDK for Android is also a good choice in deployment scenarios where a MDM profile installation on the device is not possible.
+The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Google Android devices can be used to enable additional app config and security capabilities that may not yet be available natively as part of the AppConfig Community. Certain use cases such as granular analytics can be provided through a deeper integration with the SDK. The Workspace ONE SDK for Android is also a good choice in deployment scenarios where a MDM profile installation on the device is not possible.
 
 ## Downloads
 
@@ -19,9 +19,9 @@ For additional information, please visit the [Omnissa Legal Center](https://www.
 
 !!! warning "Important Update Starting June 2024"
 
-    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the [My Workspace ONE portal](https://my.workspaceone.com/products/Workspace-ONE-SDK). 
+    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the My Workspace ONE portal. 
     
-The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples/blob/main/IntegrationGuideForAndroid/Guides/PublicMaven/WorkspaceONE_Android_PublicMavenNote.md), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
+The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://developer.omnissa.com/ws1-uem-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
 
 Refer to these guides for instructions on how to integrate your Android app with Workspace ONE.
 

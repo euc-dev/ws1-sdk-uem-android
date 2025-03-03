@@ -10,14 +10,11 @@ hide:
 
 The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../getting-started.md) tutorial as well as Integrating the Client SDK portion in the [SDK Setup](../SDK-Setup.md) section.
 
-!!!Important
-    You will need to download the SDK binary separately via [resources.air-watch.com](https://resources.air-watch.com/). Please contact your Omnissa representative or support to gain access.
-
 ## Requirements
 
-- Android 7.0+ (i.e., API 24)
+- Android 8.0+ (i.e., API 26)
 - Workspace ONE UEM Console 2302+
-- Android Studio with the Gradle Android Build System (Gradle) 7.4+
+- Android Studio with the Gradle Android Build System (Gradle) 8.2.2+
 - JDK version 17
 - Workspace ONE Intelligent Hub for Android version 24.07
 - Android Test Device
