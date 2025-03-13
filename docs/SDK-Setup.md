@@ -16,7 +16,7 @@ Before moving forward to the SDK setup tutorial, ensure you have completed the i
 
     Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the My Workspace ONE portal. 
     
-The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://developer.omnissa.com/ws1-uem-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
+The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
 
 ## Requirements
 
@@ -43,7 +43,7 @@ Refer to [index](index.md) Integration guides section for instructions on how to
 ### Configure the App theme to have the Branding Icon
 
 Set the SDK Branding Icon to be the image. This can be the app icon or an image specific to the app. The Branding Icon is required for SDK Login Flow integrations.
-Please follow the instructions in the [Workspace ONE for Android Branding Integration Guide](https://developer.omnissa.com/ws1-uem-sdk-for-android/guides/WorkspaceONE_Android_Branding.pdf)
+Please follow the instructions in the [Workspace ONE for Android Branding Integration Guide](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_Branding.pdf)
 to set the SDK branding icon.
 
 ## Debug Your Application
