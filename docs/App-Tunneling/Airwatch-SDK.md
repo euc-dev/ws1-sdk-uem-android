@@ -30,7 +30,7 @@ In order to redirect your application’s traffic to an AirWatch supported proxy
 - AWWebViewClient
 - AWURLConnection
 
-No additional logic is needed to handle the tunneling of a network request from your internal application. For more information refer [Networking Developer Guide](https://developer.omnissa.com/ws1-uem-sdk-for-android/guides/WS1AndroidDeveloperGuideNetworking.pdf)
+No additional logic is needed to handle the tunneling of a network request from your internal application. For more information refer [Networking Developer Guide](https://developer.omnissa.com/ws1-sdk-for-android/guides/WS1AndroidDeveloperGuideNetworking.pdf)
 
 ## Tutorial
 
