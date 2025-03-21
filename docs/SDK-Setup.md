@@ -20,7 +20,7 @@ The SDK is accessible from a Maven repository. For integration documentation, pl
 
 ## Requirements
 
-- Android 7.0+ / Oreo / API Level 26+
+- Android 7.0+ / Oreo / API Level 24+
 - Android Studio with the Gradle v8.2.2+
 - Android Test Device
 - AirWatch SDK from the Resources Portal
