@@ -12,7 +12,7 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 ## Requirements
 
-- Android 8.0+ (i.e., API 26)
+- Android 7.0+ (i.e., API 24)
 - Workspace ONE UEM Console 2302+
 - Android Studio with the Gradle Android Build System (Gradle) 8.2.2+
 - JDK version 17

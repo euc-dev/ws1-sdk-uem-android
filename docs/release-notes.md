@@ -25,6 +25,20 @@ Also when adding module dependencies, ensure the group and module names are in l
 dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersion}") implementation ("com.airwatch.android:awframework:${airwatchVersion}") implementation ("com.airwatch.android:awnetworklibrary:${airwatchVersion}") }
 ```
 
+## Workspace ONE SDK 25.02 for Android
+
+### What's new
+- Target Android API 35. Refer [Branding Guide for OptOutEdgeToEdgeEnforcement for apps targeting API 35 ](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_Branding.pdf#page=12)
+- Support for Dense QR Code
+- Bug fixes and stability improvements
+
+### Compatibility
+- Android 7.0+ (i.e., API 24)
+- Workspace ONE UEM Console 2306+
+- Android Studio with the Gradle Android Build System (AGP) 8.2.2+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 25.02
+
 ## Workspace ONE SDK 24.11 for Android
 
 ### What's new
