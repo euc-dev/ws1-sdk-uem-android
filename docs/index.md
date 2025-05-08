@@ -47,6 +47,7 @@ Refer to these guides for instructions on how to integrate specific features.
 - [Workspace ONE App Logging Guide](./guides/AppLogging.pdf)
 - [Workspace ONE Require Device Passcode Technical Feature Guide](guides/RequireDevicePasscode.pdf)
 - [Workspace ONE Mobile Application Management Technical White Paper](guides/MobileApplicationManagement.pdf)
+- [Workspace ONE SDK Events](guides/WS1SDKEvents.pdf)
 
 ## Other Documentation and Reference
 
