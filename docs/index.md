@@ -48,6 +48,7 @@ Refer to these guides for instructions on how to integrate specific features.
 - [Workspace ONE Require Device Passcode Technical Feature Guide](guides/RequireDevicePasscode.pdf)
 - [Workspace ONE Mobile Application Management Technical White Paper](guides/MobileApplicationManagement.pdf)
 - [Workspace ONE SDK Events](guides/WS1SDKEvents.pdf)
+- [Workspace ONE SCEP Configuration](guides/SCEPConfiguration.pdf)
 
 ## Other Documentation and Reference
 
