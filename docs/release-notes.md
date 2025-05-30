@@ -6,7 +6,7 @@ hide:
   #- toc
 ---
 
-Updated on 12/20/2024
+Updated on 05/30/2025
 
 ## What's in the Release Notes?
 
@@ -24,6 +24,18 @@ Also when adding module dependencies, ensure the group and module names are in l
 ```c
 dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersion}") implementation ("com.airwatch.android:awframework:${airwatchVersion}") implementation ("com.airwatch.android:awnetworklibrary:${airwatchVersion}") }
 ```
+## Workspace ONE SDK 25.02.1 for Android
+
+# What's new
+- Updated web domain to align with Omnissa branding. Refer [Update Workspace ONE SDK for iOS and Android with new Workspace ONE domain](https://kb.omnissa.com/s/article/6000872)
+- Bug fixes and stability improvements
+
+# Compatibility
+- Android 7.0+ (i.e., API 24)
+- Workspace ONE UEM Console 2306+
+- Android Studio with the Gradle Android Build System (AGP) 8.2.2+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 25.02
 
 ## Workspace ONE SDK 25.02 for Android
 
