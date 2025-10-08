@@ -6,7 +6,7 @@ hide:
   #- toc
 ---
 
-Updated on 05/30/2025
+Updated on 10/08/2025
 
 ## What's in the Release Notes?
 
@@ -24,6 +24,26 @@ Also when adding module dependencies, ensure the group and module names are in l
 ```c
 dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersion}") implementation ("com.airwatch.android:awframework:${airwatchVersion}") implementation ("com.airwatch.android:awnetworklibrary:${airwatchVersion}") }
 ```
+## Workspace ONE SDK 25.02.4 for Android
+
+# What's new
+- Upgraded to Android Gradle Plugin (AGP) 8.12.1 and Kotlin 2.2.0.
+- **Support for Android 16 KB page size.**
+- Security enhancements
+- Troubleshooting enhancements
+
+# References
+- [Android Gradle Plugin 8.12.1 (July 2025)](https://developer.android.com/build/releases/past-releases/agp-8-12-0-release-notes#android-gradle-plugin-8.12.1)
+- [What's new in Kotlin 2.2.0 | Kotlin](https://kotlinlang.org/docs/whatsnew22.html#)
+- [Support 16 KB page sizes | Compatibility](https://developer.android.com/guide/practices/page-sizes)
+
+# Compatibility
+- Android 7.0+ (i.e., API 24)
+- Workspace ONE UEM Console 2402+
+- Android Studio with the Gradle Android Build System (AGP) 8.2.2+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 25.08
+
 ## Workspace ONE SDK 25.02.3 for Android
 
 # What's new
