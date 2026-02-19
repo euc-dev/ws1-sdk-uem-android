@@ -24,6 +24,24 @@ Also when adding module dependencies, ensure the group and module names are in l
 ```c
 dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersion}") implementation ("com.airwatch.android:awframework:${airwatchVersion}") implementation ("com.airwatch.android:awnetworklibrary:${airwatchVersion}") }
 ```
+## Workspace ONE SDK 25.07.4 for Android
+
+# What's new
+- Integration of OpenSSL 3.4.4 with improved security and enhanced FIPS support.
+- Security enhancements.
+- Software currency upgrades.
+- Bug fixes and Stability improvements.
+
+# References
+- [Netty Upgrade Information](https://developer.omnissa.com/ws1-sdk-for-android/guides/WS1AndroidDeveloperGuideNetworking.pdf#page=3)
+
+# Compatibility
+- Android 8.0+ (i.e., API 26)
+- Workspace ONE UEM Console 2402+
+- Android Studio with the Gradle Android Build System (AGP) 8.6.0+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 25.11
+
 ## Workspace ONE SDK 25.02.4 for Android
 
 # What's new
