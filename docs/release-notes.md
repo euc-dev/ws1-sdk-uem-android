@@ -16,26 +16,30 @@ Workspace ONE SDK for Android Release Notes describe the new features and enhanc
 
 !!! warning "Important Update Starting June 2024"
 
-    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the My Workspace ONE portal. 
+    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will be distributed via GitHub Maven repository. 
     
-The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
+The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [GitHub Maven Repository Integration Note](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
 
 Also when adding module dependencies, ensure the group and module names are in lowercase. Example: 
 ```c
-dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersion}") implementation ("com.airwatch.android:awframework:${airwatchVersion}") implementation ("com.airwatch.android:awnetworklibrary:${airwatchVersion}") }
+dependencies {
+    implementation("com.airwatch.android:airwatchsdk:${airwatchVersion}")
+    implementation("com.airwatch.android:awframework:${airwatchVersion}")
+    implementation("com.airwatch.android:awnetworklibrary:${airwatchVersion}")
+}
 ```
 ## Workspace ONE SDK 25.07.4 for Android
 
-# What's new
+### What's new
 - Integration of OpenSSL 3.4.4 with improved security and enhanced FIPS support.
 - Security enhancements.
 - Software currency upgrades.
 - Bug fixes and Stability improvements.
 
-# References
+### References
 - [Netty Upgrade Information](https://developer.omnissa.com/ws1-sdk-for-android/guides/WS1AndroidDeveloperGuideNetworking.pdf#page=3)
 
-# Compatibility
+### Compatibility
 - Android 8.0+ (i.e., API 26)
 - Workspace ONE UEM Console 2402+
 - Android Studio with the Gradle Android Build System (AGP) 8.6.0+
@@ -44,18 +48,18 @@ dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersi
 
 ## Workspace ONE SDK 25.02.4 for Android
 
-# What's new
+### What's new
 - Upgraded to Android Gradle Plugin (AGP) 8.12.1 and Kotlin 2.2.0.
 - **Support for Android 16 KB page size.**
 - Security enhancements
 - Troubleshooting enhancements
 
-# References
+### References
 - [Android Gradle Plugin 8.12.1 (July 2025)](https://developer.android.com/build/releases/past-releases/agp-8-12-0-release-notes#android-gradle-plugin-8.12.1)
 - [What's new in Kotlin 2.2.0 | Kotlin](https://kotlinlang.org/docs/whatsnew22.html#)
 - [Support 16 KB page sizes | Compatibility](https://developer.android.com/guide/practices/page-sizes)
 
-# Compatibility
+### Compatibility
 - Android 7.0+ (i.e., API 24)
 - Workspace ONE UEM Console 2402+
 - Android Studio with the Gradle Android Build System (AGP) 8.2.2+
@@ -64,13 +68,13 @@ dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersi
 
 ## Workspace ONE SDK 25.02.3 for Android
 
-# What's new
+### What's new
 - Enhancements in sending logs via email.
 - Security enhancements.
 - Software currency upgrades.
 - Log upload enhancements.
 
-# Compatibility
+### Compatibility
 - Android 7.0+ (i.e., API 24)
 - Workspace ONE UEM Console 2310+
 - Android Studio with the Gradle Android Build System (AGP) 8.2.2+
@@ -79,11 +83,11 @@ dependencies { implementation ("com.airwatch.android:airwatchsdk:${airwatchVersi
 
 ## Workspace ONE SDK 25.02.1 for Android
 
-# What's new
+### What's new
 - Updated web domain to align with Omnissa branding. Refer [Update Workspace ONE SDK for iOS and Android with new Workspace ONE domain](https://kb.omnissa.com/s/article/6000872)
 - Bug fixes and stability improvements
 
-# Compatibility
+### Compatibility
 - Android 7.0+ (i.e., API 24)
 - Workspace ONE UEM Console 2306+
 - Android Studio with the Gradle Android Build System (AGP) 8.2.2+
