@@ -19,9 +19,9 @@ For additional information, please visit the [Omnissa Legal Center](https://www.
 
 !!! warning "Important Update Starting June 2024"
 
-    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the My Workspace ONE portal. 
+    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will be distributed via GitHub Maven repository. 
     
-The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
+The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [GitHub Maven Repository Integration Note](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
 
 Refer to these guides for instructions on how to integrate your Android app with Workspace ONE.
 
@@ -35,7 +35,7 @@ Refer to these guides for instructions on how to integrate your Android app with
 
 !!! info
 
-    **Sample Application Code for Workspace ONE for Android SDK is available at[https://github.com/euc-releases/workspace-ONE-SDK-integration-samples](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples)**
+    **Sample Application Code for Workspace ONE for Android SDK is available at [https://github.com/euc-releases/workspace-ONE-SDK-integration-samples](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples)**
 
 ## Technical Feature Guides
 
@@ -52,8 +52,8 @@ Refer to these guides for instructions on how to integrate specific features.
 
 ## Other Documentation and Reference
 
-| Name | Size |
-| --- | ---:|
-| Integration Guides |  |
+| Name                                                                                                                      | Size |
+|---------------------------------------------------------------------------------------------------------------------------| ---:|
+| Integration Guides                                                                                                        |  |
 | [Workspace ONE for Android Privacy Agreements Module Integration Guide](guides/WorkspaceONE_Android_Privacy.pdf) - latest | 2.6 MB |
-| [Workspace ONE for Android Public Maven Repository Integration Note](guides/WorkspaceONE_Android_PublicMavenNote.pdf) | 141.3 KB |
+| [Workspace ONE for Android GitHub Maven Repository Integration Note](guides/WorkspaceONE_Android_PublicMavenNote.pdf)     | 141.3 KB |

@@ -14,9 +14,9 @@ Before moving forward to the SDK setup tutorial, ensure you have completed the i
 
 !!! warning "Important Update Starting June 2024"
 
-    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will **NOT** be distributed through the My Workspace ONE portal. 
+    Starting June 2024 version 24.06 onwards, Workspace ONE SDK for Android will be distributed via GitHub Maven repository. 
     
-The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [Public Maven Repository Integration Note](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
+The SDK is accessible from a Maven repository. For integration documentation, please follow the instructions in the [GitHub Maven Repository Integration Note](https://developer.omnissa.com/ws1-sdk-for-android/guides/WorkspaceONE_Android_PublicMavenNote.pdf), and KB article [General Availability of Workspace ONE SDK Android (6000158)](https://kb.omnissa.com/s/article/6000158) to integrate the Workspace ONE SDK Android package into their applications.
 
 ## Requirements
 
