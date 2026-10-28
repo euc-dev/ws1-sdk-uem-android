@@ -28,6 +28,23 @@ dependencies {
     implementation("com.airwatch.android:awnetworklibrary:${airwatchVersion}")
 }
 ```
+## Workspace ONE SDK 26.09 for Android
+
+### What's New
+- Added the ability to suppress the native Android "Save Password" prompt and hide keyboard credential autofill suggestions on sensitive entry fields.
+- Upgraded native cryptographic libraries to OpenSSL 3.5.8 to incorporate the latest upstream security and vulnerability patches.
+- Added official support for Android Gradle Plugin (AGP) 9.2.1 and Gradle 9.6.1, and updated core AndroidX dependencies to their latest stable releases.
+- Bug fixes and stability improvements.
+
+### Known Issues
+- For apps targeting API 37, there is a known app crash issue. See [KB 6001484](https://ikb.omnissa.com/s/article/6001484) for details.
+
+### Compatibility
+- Android 8.0+ (i.e., API 26)
+- Workspace ONE UEM Console 2410+
+- Android Studio Panda 3 | 2025.3.3 Patch 1 with Android Gradle Plugin (AGP) 9.1.1+
+- JDK version 17
+
 ## Workspace ONE SDK 26.06.1 for Android
 
 ### What's New

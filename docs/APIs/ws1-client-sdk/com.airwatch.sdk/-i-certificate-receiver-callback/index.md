@@ -12,4 +12,4 @@ Provides a callback mechanism to retrieve the Certificates.
 
 | Name | Summary |
 |---|---|
-| [onCertificateListReceived](on-certificate-list-received.md) | abstract fun [onCertificateListReceived](on-certificate-list-received.md)(cdl: [List](https://developer.android.com/reference/kotlin/java/util/List.html)&lt;[CertificateDefinition](../../com.airwatch.bizlib.model/-certificate-definition/index.md)&gt;)<br>Callback invoked when the Anchor App responds to a requestCertificates(String issuerId) request. |
+| [onCertificateListReceived](on-certificate-list-received.md) | abstract fun [onCertificateListReceived](on-certificate-list-received.md)(cdl: [List](https://developer.android.com/reference/kotlin/java/util/List.html)&lt;CertificateDefinition&gt;)<br>Callback invoked when the Anchor App responds to a requestCertificates(String issuerId) request. |

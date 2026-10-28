@@ -6,11 +6,11 @@
 open fun writeCustomAttributes(attributes: List<CustomAttributeData>): Int
 ```
 
-<div class="api-sig-types" markdown="span">[List](https://developer.android.com/reference/kotlin/java/util/List.html), [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html)</div>
+<div class="api-sig-types" markdown="span">[List](https://developer.android.com/reference/kotlin/java/util/List.html), [CustomAttributeData](../-custom-attribute-data/index.md), [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html)</div>
 
 Writes custom attributes for the given list of attributes. 
 
- Each CustomAttributeData must have group, key, and value fields populated. 
+ Each [CustomAttributeData](../-custom-attribute-data/index.md) must have non-null, non-empty group and key fields. The value field may be null or empty; it is stored as an empty string. for that. 
 
 ## Parameters
 

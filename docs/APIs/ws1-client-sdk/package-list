@@ -74,8 +74,12 @@ $dokka.location:com.airwatch.sdk////PointingToDeclaration/ws1-client-sdk/com.ai
 $dokka.location:com.airwatch.sdk/AirWatchSDKBroadcastReceiver///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-air-watch-s-d-k-broadcast-receiver/index.md
 $dokka.location:com.airwatch.sdk/AirWatchSDKException///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-air-watch-s-d-k-exception/index.md
 $dokka.location:com.airwatch.sdk/AirWatchSDKException/AirWatchSDKException/#com.airwatch.sdk.SDKStatusCode/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-air-watch-s-d-k-exception/-air-watch-s-d-k-exception.md
+$dokka.location:com.airwatch.sdk/CustomAttributeData///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-custom-attribute-data/index.md
+$dokka.location:com.airwatch.sdk/CustomAttributeData/group/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-custom-attribute-data/group.md
+$dokka.location:com.airwatch.sdk/CustomAttributeData/key/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-custom-attribute-data/key.md
+$dokka.location:com.airwatch.sdk/CustomAttributeData/value/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-custom-attribute-data/value.md
 $dokka.location:com.airwatch.sdk/ICertificateReceiverCallback///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-i-certificate-receiver-callback/index.md
-$dokka.location:com.airwatch.sdk/ICertificateReceiverCallback/onCertificateListReceived/#java.util.List<com.airwatch.bizlib.model.CertificateDefinition>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-i-certificate-receiver-callback/on-certificate-list-received.md
+$dokka.location:com.airwatch.sdk/ICertificateReceiverCallback/onCertificateListReceived/#java.util.List<CertificateDefinition>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-i-certificate-receiver-callback/on-certificate-list-received.md
 $dokka.location:com.airwatch.sdk/SDKManager///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/index.md
 $dokka.location:com.airwatch.sdk/SDKManager/acceptCheckoutEULA/#java.lang.String#boolean/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/accept-checkout-e-u-l-a.md
 $dokka.location:com.airwatch.sdk/SDKManager/authenticateUser/#java.lang.String#java.lang.String/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/authenticate-user.md
@@ -84,7 +88,7 @@ $dokka.location:com.airwatch.sdk/SDKManager/autoUnenroll/#/PointingToDeclaration
 $dokka.location:com.airwatch.sdk/SDKManager/checkInDevice/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/check-in-device.md
 $dokka.location:com.airwatch.sdk/SDKManager/checkOutDevice/#java.lang.String#java.lang.String#java.lang.String/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/check-out-device.md
 $dokka.location:com.airwatch.sdk/SDKManager/deinit/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/deinit.md
-$dokka.location:com.airwatch.sdk/SDKManager/deleteCustomAttributes/#java.util.List<CustomAttributeData>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/delete-custom-attributes.md
+$dokka.location:com.airwatch.sdk/SDKManager/deleteCustomAttributes/#java.util.List<com.airwatch.sdk.CustomAttributeData>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/delete-custom-attributes.md
 $dokka.location:com.airwatch.sdk/SDKManager/getAPIVersion/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/get-a-p-i-version.md
 $dokka.location:com.airwatch.sdk/SDKManager/getApplicationConfiguration/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/get-application-configuration.md
 $dokka.location:com.airwatch.sdk/SDKManager/getApplicationProfile/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/get-application-profile.md
@@ -112,11 +116,12 @@ $dokka.location:com.airwatch.sdk/SDKManager/isSSOEnabled/#/PointingToDeclaration
 $dokka.location:com.airwatch.sdk/SDKManager/isSSOSessionValid/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/is-s-s-o-session-valid.md
 $dokka.location:com.airwatch.sdk/SDKManager/isServiceConnected/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/is-service-connected.md
 $dokka.location:com.airwatch.sdk/SDKManager/performSharedDeviceOperation/#Bundle#ResultReceiver/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/perform-shared-device-operation.md
-$dokka.location:com.airwatch.sdk/SDKManager/readCustomAttributes/#java.util.List<CustomAttributeData>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/read-custom-attributes.md
+$dokka.location:com.airwatch.sdk/SDKManager/readCustomAttributes/#java.util.List<com.airwatch.sdk.CustomAttributeData>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/read-custom-attributes.md
 $dokka.location:com.airwatch.sdk/SDKManager/refreshBinding/#Context/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/refresh-binding.md
+$dokka.location:com.airwatch.sdk/SDKManager/requestCertificates/#com.airwatch.sdk.ICertificateReceiverCallback/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/request-certificates.md
 $dokka.location:com.airwatch.sdk/SDKManager/requestCertificates/#java.lang.String#java.lang.String#com.airwatch.sdk.ICertificateReceiverCallback/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/request-certificates.md
 $dokka.location:com.airwatch.sdk/SDKManager/uploadApplicationLogs/#/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/upload-application-logs.md
-$dokka.location:com.airwatch.sdk/SDKManager/writeCustomAttributes/#java.util.List<CustomAttributeData>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/write-custom-attributes.md
+$dokka.location:com.airwatch.sdk/SDKManager/writeCustomAttributes/#java.util.List<com.airwatch.sdk.CustomAttributeData>/PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-manager/write-custom-attributes.md
 $dokka.location:com.airwatch.sdk/SDKStatusCode.APP_UNAUTHORIZED_ACCESS///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-status-code/-a-p-p_-u-n-a-u-t-h-o-r-i-z-e-d_-a-c-c-e-s-s/index.md
 $dokka.location:com.airwatch.sdk/SDKStatusCode.EMM_ACCESS_REQUIRED///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-status-code/-e-m-m_-a-c-c-e-s-s_-r-e-q-u-i-r-e-d/index.md
 $dokka.location:com.airwatch.sdk/SDKStatusCode.GATEWAY_FAILED_IN_CONFIGURING///PointingToDeclaration/ws1-client-sdk/com.airwatch.sdk/-s-d-k-status-code/-g-a-t-e-w-a-y_-f-a-i-l-e-d_-i-n_-c-o-n-f-i-g-u-r-i-n-g/index.md
