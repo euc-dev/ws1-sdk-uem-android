@@ -6,11 +6,11 @@
 open fun deleteCustomAttributes(attributes: List<CustomAttributeData>): Int
 ```
 
-<div class="api-sig-types" markdown="span">[List](https://developer.android.com/reference/kotlin/java/util/List.html), [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html)</div>
+<div class="api-sig-types" markdown="span">[List](https://developer.android.com/reference/kotlin/java/util/List.html), [CustomAttributeData](../-custom-attribute-data/index.md), [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html)</div>
 
 Deletes custom attributes for the given list of attributes. 
 
- Each CustomAttributeData must have group and key fields populated to identify the attributes to delete. 
+ Each [CustomAttributeData](../-custom-attribute-data/index.md) must have group and key fields populated to identify the attributes to delete. 
 
 ## Parameters
 

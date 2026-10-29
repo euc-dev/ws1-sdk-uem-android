@@ -3,7 +3,7 @@
 # SDKClientConfig
 
 ```kotlin
-interface SDKClientConfig
+fun interface SDKClientConfig
 ```
 
 This to be implemented with the app's Application class and to provide [WS1AnchorEvents](../-w-s1-anchor-events/index.md) object.

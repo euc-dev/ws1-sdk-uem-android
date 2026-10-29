@@ -6,11 +6,11 @@
 open fun readCustomAttributes(queries: List<CustomAttributeData>): List<CustomAttributeData>
 ```
 
-<div class="api-sig-types" markdown="span">[List](https://developer.android.com/reference/kotlin/java/util/List.html)</div>
+<div class="api-sig-types" markdown="span">[List](https://developer.android.com/reference/kotlin/java/util/List.html), [CustomAttributeData](../-custom-attribute-data/index.md)</div>
 
 Reads custom attributes for the given list of queries. 
 
- Each CustomAttributeData specifies a group and key to look up. The returned list contains CustomAttributeData objects with the value field populated for each matched query. 
+ Each [CustomAttributeData](../-custom-attribute-data/index.md) specifies a group and key to look up. The returned list contains [CustomAttributeData](../-custom-attribute-data/index.md) objects with the value field populated for each matched query. 
 
 ## Parameters
 
@@ -20,7 +20,7 @@ Reads custom attributes for the given list of queries.
 
 ## Return
 
-Non-null list of CustomAttributeData with values populated, or an empty list if no results are found or if queries is null/empty.
+Non-null list of [CustomAttributeData](../-custom-attribute-data/index.md) with values populated, or an empty list if no results are found or if queries is null/empty.
 
 ## Throws
 

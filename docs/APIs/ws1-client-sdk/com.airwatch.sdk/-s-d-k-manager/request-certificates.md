@@ -20,9 +20,31 @@ Access Level = AW_MANAGED (for details on access permission please check [SDKMan
 | token | the token corresponding to the issuer |
 | iCrc | [ICertificateReceiverCallback](../-i-certificate-receiver-callback/index.md) callback object to retrieve the certificates. |
 
+## Parameters
+
+| Name | Description |
+|------|-------------|
+| iCrc | [ICertificateReceiverCallback](../-i-certificate-receiver-callback/index.md) callback object to retrieve the certificates. |
+
 ## Return
 
-true if certificates found for giver issuer; false if not found and/or needs a network call
+true if certificates found for given issuer; false if not found and/or needs a network call
+
+## Return
+
+true if certificate found for this app from its assigned SDK profile, false if not found and/or needs a network fetch
+
+## Throws
+
+| Exception | Condition |
+|-----------|-----------|
+| [com.airwatch.sdk.AirWatchSDKException](../-air-watch-s-d-k-exception/index.md) | if API is not available in Anchor Application or binding with Anchor app fails |
+
+open fun [requestCertificates](request-certificates.md)(iCrc: [ICertificateReceiverCallback](../-i-certificate-receiver-callback/index.md)): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html)
+
+Requests the Anchor application to send the Certificates. This API is to be used only if the issuer and token information is not available; use the other [requestCertificates](request-certificates.md) API otherwise. 
+
+Access Level = AW_MANAGED (for details on access permission please check [SDKManager](index.md)) 
 
 ## Throws
 
